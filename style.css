@@ -1,0 +1,107 @@
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'poppins';
+    color: #fff;
+    width: 1440px;
+}
+
+header{
+    height: 150px;
+}
+
+header img{
+    width: 186px;
+    margin: 50px 0px 0px 93px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.mockups{
+    width: 55%;
+    height: 110vh;
+    
+}
+
+.mockups img{
+    display: block;
+    width: 40rem;
+    margin: 20px 0px 0px 95px;
+}
+
+aside{
+    width: 40%;
+    height: 110vh;
+}
+
+aside h1{
+    font-weight: 600;
+    font-size: 43px;
+    margin: 50px 0px 0px 0px;
+}
+
+aside p{
+    font-size: 17px;
+    font-weight: 300;
+    width: 32rem;
+}
+
+#button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    width: 200px;
+    height: 50px;
+    margin: 30px 0px 0px 0px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 15px -6px #000000; 
+box-shadow: 0px 0px 15px -6px #000000;
+}
+
+#button:hover{
+    background-color: hsl(300, 69%, 71%);
+}
+
+#button span{
+    color: hsl(257, 40%, 49%);
+}
+
+#button span:hover{
+    color: #fff;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+
+
+footer img{
+    margin: 10px;
+}
+
+footer p{
+    margin: 10rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
