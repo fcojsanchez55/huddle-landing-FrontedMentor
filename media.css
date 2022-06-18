@@ -1,0 +1,91 @@
+body{
+    background-image: url(images/bg-mobile.svg);
+    background-size: contain;
+    width: 375px;
+    background-color: hsl(257, 40%, 49%) ;
+}
+
+header{
+    height: 100px;
+}
+
+header img{
+    margin: 25px 0px 0px 40px;
+    width: 125px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mockups{
+    display: block;
+    height: 300px;
+    width: 375px;
+}
+.mockups img{
+    display: block;
+    width: 300px;
+    padding-top: 25px;
+    margin: 0px auto;
+
+}
+
+
+aside{
+    width: 375px;
+    height: 300px;
+    text-align: center;
+    
+}
+
+aside h1{
+    margin: auto;
+    width: 300px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+aside p{
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    width: 305px;
+}
+
+aside #button{
+    margin: 0px auto;
+    margin-top: 10px;
+    height: 45px;
+    width: 220px;  
+}
+
+#button span{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+}
+
+
+footer div img{
+    width: 35px;
+    margin: 10px;
+}
+
+
+footer p{
+    display: none;
+}
